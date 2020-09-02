@@ -1,5 +1,5 @@
 # Meme-It
-Meme it is a simple meme generator built using HTML 5 Canvas library Fabric.Js, and its allows you to manipulate text or images on chosen meme template.
+Meme it is a simple meme generator built using HTML5 Canvas library Fabric.Js, and its allows you to manipulate text or images on chosen meme template.
 
 A list of top 100 memes that frequently is provided by default but you can also import your own image.
 
