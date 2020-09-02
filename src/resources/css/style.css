@@ -1,0 +1,171 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    text-transform: uppercase;
+}
+
+.discription {
+    text-transform: none;
+}
+
+.source:hover {
+    text-decoration: none;
+}
+
+.choice .custom-file {
+    font-size: 16px;
+}
+
+.choice p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.input-image {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 260px;
+}
+
+.choice input {
+    display: none;   
+}
+
+.custom-file {
+    height: calc(1em + 1.5rem + 0px);
+}
+
+.choice label {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+/*  border-radius: 5px; */
+    height: calc(1em + 1.5rem + 0px);
+    padding: 0.5rem 1.5rem;
+    border: 0;
+    border-radius: 0;
+}
+
+.choice label::after {
+    height: calc(1em + 1.5rem);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0;
+}
+
+.choice label:hover {
+    cursor: pointer;
+}
+
+.memes-container div {
+    cursor: pointer;
+}
+
+/* Responsive Grid*/
+@media (max-width: 575px) { 
+    .grid-sizer,
+    .grid-item {
+      width: 50%;
+    } 
+}
+
+@media (min-width: 576px) { 
+    .grid-sizer,
+    .grid-item {
+      width: 33.333%;
+    } 
+}
+
+@media (min-width: 768px) { 
+    .grid-sizer,
+    .grid-item {
+      width: 25%;
+    } 
+}
+
+@media (min-width: 992px) { 
+    .grid-sizer,
+    .grid-item {
+      width: 20%;
+    } 
+}
+
+@media (min-width: 1200px) { 
+    .grid-sizer,
+    .grid-item {
+      width: 20%;
+    } 
+}
+
+.grid-item {
+    overflow: hidden;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+}
+
+.form-group {
+    margin-bottom: 0.75rem;
+}
+
+.meme-preview {
+    border: 1px solid #cecece;
+}
+
+
+.preview {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.back-btn .btn{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.canvas-container {
+    width: 100%;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100%;
+    max-height: 100%
+}
+
+.new-select {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: 0px auto -webkit-focus-ring-color!important;
+}
+
+#bg-option {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.add-btns{
+    border-bottom: 1px solid #cecece;
+}
+
+.alert-container {
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}

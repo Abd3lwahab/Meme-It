@@ -1,0 +1,48 @@
+@font-face {
+    font-family:"Arial Black";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/ariblk.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/trebuc.woff') format('woff');
+}    
+    
+@font-face {
+    font-family: 'Trebuchet MS Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Trebuchet-MS-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family:"Comic Sans Ms";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Comic-Sans-MS.TTF") format("truetype");
+}
+
+@font-face {
+    font-family:"Impact";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/impact.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Bahij Myriad Arabic Bold";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Bahij-Myriad-Arabic-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family:"Hacen Liner XXL";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Hacen-Liner-XXL.ttf") format("truetype");
+}
+
