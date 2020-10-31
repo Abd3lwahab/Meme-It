@@ -3,7 +3,7 @@ Meme it is a simple meme generator built using HTML5 Canvas library Fabric.Js, a
 
 A list of top 100 memes that frequently is provided by default but you can also import your own image.
 
-Website: http://meme-it.tk/
+Website: http://meme-it.tk
 
 ## Preview
 ![Preview-gif](https://raw.githubusercontent.com/Abdelwahab07/Meme-It/master/img/meme-gen.gif)
